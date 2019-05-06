@@ -1,0 +1,28 @@
+{
+  "name": "letsmeet-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmaftule/GroupMeetingScheduling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmaftule/GroupMeetingScheduling/issues"
+  },
+  "homepage": "https://github.com/dmaftule/GroupMeetingScheduling#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
